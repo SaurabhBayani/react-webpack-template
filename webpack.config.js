@@ -1,7 +1,7 @@
 const path = require('path');
 var config = {
     watch: true, // turn false in production
-    entry: './src/index.js',
+    entry: './src/index.jsx',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
